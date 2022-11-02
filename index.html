@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="https://arcada.fi/themes/custom/arcada/img/favicon-32x32.png">
+        <link rel="stylesheet" href="./style.css">
+        <title>Arcada Lunchlist</title>
+    </head>
+
+    <body>
+        <div class="m-5" id="content">
+            <h2><b>Arcada Lunchlist</b></h2>
+            <div class="form-group mt-2">
+                <label>Subscribe to daily lunch menu at Arcada</label>
+                <div class="row">
+                    <input placeholder="username@arcada.fi" type="text" class="form-control" id="bID">
+                    <button id="btn" class="btn btn-primary ml-2" onclick="subscribeUser()">Subscribe</button>
+                </div>
+            </div>
+            <div id="alert"></div>
+        </div>
+
+        <div class="footer">
+            <footer><a target="_blank" href="https://github.com/lagerqvr">Made with ❤️ by
+                    <b>@lagerqvr</b></a></footer>
+        </div>
+
+        <script src="/js/script.js"></script>
+
+    </body>
+
+</html>
