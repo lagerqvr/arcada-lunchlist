@@ -1,2 +1,2 @@
 # arcada-lunchlist
-Simple web app for sending daily lunch menu to subscribers. 
+Simple web app for sending daily lunch menu at Arcada to subscribers. 
